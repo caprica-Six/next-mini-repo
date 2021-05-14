@@ -5,11 +5,31 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
+    "isomorphic-fetch": "^3.0.0",
+    "moment": "^2.29.1",
+    "newsapi": "^2.4.1",
+    "next": "^10.2.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "next-pwa": "^5.2.21",
+    "next-sitemap": "^1.6.3",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-cool-onclickoutside": "^1.5.9",
+    "react-dom": "17.0.1",
+    "react-lines-ellipsis": "^0.14.1",
+    "reactstrap": "^8.8.1",
+    "sass": "^1.32.0",
+    "webpack": "^5.36.2"
   }
 }
